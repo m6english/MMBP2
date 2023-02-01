@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.308), rgba(0, 0, 0, 0.555)),
+    url('../img/mmbpbuilding2.PNG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+.navbar-brand {
+    width: 60%;
+}
+.navbar {
+    background-color: white;
+}
+
+.nav-logo {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.about-container {
+    color: white;
+    margin: 1rem 12px auto;
+}
+
+.service {
+    display: none;
+}
+
+.card {
+    margin: 2rem auto;
+}
+
+.img-ph {
+    width: 100%;
+}
+
+.card-header {
+    color: white;
+    text-align: center;
+}
+
+hr {
+ border: none;
+ border-top: 2px solid white;
+}
