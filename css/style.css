@@ -27,7 +27,8 @@ body {
     border: none;
 }
 
-.about-container {
+.about-container,
+p {
     color: white;
     margin: 1rem 12px auto;
 }
@@ -42,14 +43,27 @@ body {
 
 .img-ph {
     width: 100%;
+    margin-bottom: .5rem;
 }
 
-.card-header {
+.card-header,
+.contact,
+.team-header {
     color: white;
     text-align: center;
 }
 
+.team-header {
+    margin-top: 1rem;
+}
+
 hr {
- border: none;
- border-top: 2px solid white;
+ opacity: .6;
+ color: white;
+ margin: 1rem 12px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
 }
