@@ -25,7 +25,7 @@ body {
 .footer {
     position: fixed;
     bottom: 0;
-    height: 7vh;
+    height: 4rem;
     width: 100%;
 }
 
@@ -36,9 +36,12 @@ body {
 
 .footer-content {
     display: flex;
+    background-color: white;
+    width: 100%;
     justify-content: space-evenly;
+    padding: 1rem 10%;
     align-items: center;
-    padding-top: 9px;
+    box-shadow: 0 0 25px white;
 }
 
 .nav-logo {
@@ -52,7 +55,7 @@ body {
 .about-container,
 p {
     color: white;
-    margin: 1rem 12px auto;   
+    margin: 1rem 5px auto;   
 }
 
 .service {
@@ -69,6 +72,10 @@ p {
     width: 100%;
     margin-bottom: .5rem;
     box-shadow: 0 0 15px gray;
+}
+
+.card-header {
+    margin-top: 2rem;
 }
 
 .card-header,
@@ -152,6 +159,11 @@ svg {
     }
 }
 
-@media screen and (min-width: 1200px) {
-    
+@media screen and (min-width: 1400px) {
+    .about-container {
+        width: 70%;
+    }
+    hr {
+        width: 75%;
+    }
 }
