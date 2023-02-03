@@ -12,8 +12,7 @@ body {
     min-height: 100%;
 }
 
-.navbar,
-.footer {
+.navbar {
     background-color: white;
     box-shadow: 0 0 25px white;
 }
@@ -27,21 +26,22 @@ body {
     bottom: 0;
     height: 4rem;
     width: 100%;
+    opacity: 85%;
 }
 
-.foot-logo {
-    height: 2rem;
-    width: 6rem;
+.foot-slogan {
+    font-weight: 200;
+    padding-bottom: 1rem;;
 }
 
 .footer-content {
     display: flex;
-    background-color: white;
+    background-color: black;
     width: 100%;
     justify-content: space-evenly;
-    padding: 1rem 10%;
+    align-content: baseline;
+    padding: auto 10%;
     align-items: center;
-    box-shadow: 0 0 25px white;
 }
 
 .nav-logo {
@@ -108,6 +108,10 @@ p {
     margin-top: 1rem;
 }
 
+.hr-header {
+    color: black;
+}
+
 hr {
  opacity: .6;
  color: white;
@@ -135,8 +139,8 @@ svg {
 }
 
 .carousel-inner {
-    background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.555);
+    border-radius: 8px;
 }
 
 .buddy {
@@ -205,9 +209,12 @@ svg {
     border-radius: 5px;
 }
 
-/* ====== MEDIA QUERIES ====== */
+/* ================================
+========== MEDIA QUERIES ==========
+================================ */
 
 @media screen and (min-width: 768px) {
+    
     .navbar {
         display: none;
     }
@@ -260,7 +267,10 @@ svg {
 }
 
 @media screen and (min-width: 992px) {
-
+    .main {
+        width: 77%;
+        margin: 0 auto 5rem;;
+    }
 }
 
 @media screen and (min-width: 1400px) {
