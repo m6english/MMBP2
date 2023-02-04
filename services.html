@@ -77,11 +77,7 @@
     <a href="https://www.facebook.com/MidMichiganBodyPartsInc" target="_blank"><svg width="800px" height="800px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#1877F2" d="M15 8a7 7 0 00-7-7 7 7 0 00-1.094 13.915v-4.892H5.13V8h1.777V6.458c0-1.754 1.045-2.724 2.644-2.724.766 0 1.567.137 1.567.137v1.723h-.883c-.87 0-1.14.54-1.14 1.093V8h1.941l-.31 2.023H9.094v4.892A7.001 7.001 0 0015 8z"/><path fill="#ffffff" d="M10.725 10.023L11.035 8H9.094V6.687c0-.553.27-1.093 1.14-1.093h.883V3.87s-.801-.137-1.567-.137c-1.6 0-2.644.97-2.644 2.724V8H5.13v2.023h1.777v4.892a7.037 7.037 0 002.188 0v-4.892h1.63z"/></svg></a>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
-</html>
-
-<!-- Modal -->
+    <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -91,34 +87,49 @@
       </div>
       <div class="modal-body">
         <div class="walk-in">
-        <p>Walk-in customers are not permitted at this time. As a result, we are unable to accept UPS drop-off packages.</p>
-        <p>The UPS pickup window is 3:30pm-4:30pm on weekdays. Pre-addressed packages may be given directly to the UPS driver in the parking lot.</p>
+          <p>Walk-in customers are not permitted at this time. As a result, we are unable to accept UPS drop-off
+            packages.</p>
+          <p>The UPS pickup window is 3:30pm-4:30pm on weekdays. Pre-addressed packages may be given directly to the UPS
+            driver in the parking lot.</p>
+            <div class="address-hidden">
+              <p>Mid Michigan Body Parts, Inc.</p>
+              <p>2976 Larch Rd Harrison, MI. 48625</p>
+              <p>Phone: 989-539-5471</p>
+              <p>Fax: 989-539-9111</p>
+            </div>
         </div>
         <hr class="hr-header">
         <div class="building-block">
-        <div class="hours-list">
-          <div class="line">          
-            <div class="day"><strong>Sunday:</strong></div><div class="time">Closed</div>
+          <div class="hours-list">
+            <div class="line" id="day-0">
+              <div><strong>Sunday:</strong></div>
+              <div class="time">Closed</div>
+            </div>
+            <div class="line" id="day-1">
+              <div><strong>Monday:</strong></div>
+              <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+            </div>
+            <div class="line" id="day-2">
+              <div><strong>Tuesday:</strong></div>
+              <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+            </div>
+            <div class="line" id="day-3">
+              <div><strong>Wednesday:</strong></div>
+              <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+            </div>
+            <div class="line" id="day-4">
+              <div><strong>Thursday:</strong></div>
+              <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+            </div>
+            <div class="line" id="day-5">
+              <div><strong>Friday:</strong></div>
+              <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+            </div>
+            <div class="line" id="day-6">
+              <div><strong>Saturday:</strong></div>
+              <div class="time">Closed</div>
+            </div>
           </div>
-          <div class="line"> 
-            <div class="day"><strong>Monday:</strong></div><div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
-          </div>
-          <div class="line"> 
-            <div class="day"><strong>Tuesday:</strong></div><div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
-          </div>
-          <div class="line"> 
-            <div class="day"><strong>Wednesday:</strong></div><div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
-          </div>
-          <div class="line"> 
-            <div class="day"><strong>Thursday:</strong></div><div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
-          </div>
-          <div class="line"> 
-            <div class="day"><strong>Friday:</strong></div><div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
-          </div>
-          <div class="line"> 
-            <div class="day"><strong>Saturday:</strong></div><div class="time">Closed</div>
-          </div>
-        </div>
           <figure class="modal-img-container">
             <div class="address">
               <p>Mid Michigan Body Parts, Inc.</p>
@@ -126,8 +137,8 @@
               <p>Phone: 989-539-5471</p>
               <p>Fax: 989-539-9111</p>
             </div>
-          <img src="img/modalimg.jpg" class="modal-img" alt="MMBP">
-          <figcaption>We'd love to assist you with your part-buying needs! Call us today!</figcaption>
+            <img src="img/modalimg.jpg" class="modal-img" alt="MMBP">
+            <figcaption>We'd love to assist you with your part-buying needs! Call us today!</figcaption>
           </figure>
         </div>
       </div>
@@ -137,3 +148,9 @@
     </div>
   </div>
 </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

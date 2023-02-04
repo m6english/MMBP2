@@ -438,14 +438,7 @@
         </svg></a>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="app.js"></script>
-</body>
-
-</html>
-<!-- Modal -->
+    <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -459,36 +452,42 @@
             packages.</p>
           <p>The UPS pickup window is 3:30pm-4:30pm on weekdays. Pre-addressed packages may be given directly to the UPS
             driver in the parking lot.</p>
+            <div class="address-hidden">
+              <p>Mid Michigan Body Parts, Inc.</p>
+              <p>2976 Larch Rd Harrison, MI. 48625</p>
+              <p>Phone: 989-539-5471</p>
+              <p>Fax: 989-539-9111</p>
+            </div>
         </div>
         <hr class="hr-header">
         <div class="building-block">
           <div class="hours-list">
-            <div class="line">
-              <div class="day"><strong>Sunday:</strong></div>
+            <div class="line" id="day-0">
+              <div><strong>Sunday:</strong></div>
               <div class="time">Closed</div>
             </div>
-            <div class="line">
-              <div class="day"><strong>Monday:</strong></div>
+            <div class="line" id="day-1">
+              <div><strong>Monday:</strong></div>
               <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
             </div>
-            <div class="line">
-              <div class="day"><strong>Tuesday:</strong></div>
+            <div class="line" id="day-2">
+              <div><strong>Tuesday:</strong></div>
               <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
             </div>
-            <div class="line">
-              <div class="day"><strong>Wednesday:</strong></div>
+            <div class="line" id="day-3">
+              <div><strong>Wednesday:</strong></div>
               <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
             </div>
-            <div class="line">
-              <div class="day"><strong>Thursday:</strong></div>
+            <div class="line" id="day-4">
+              <div><strong>Thursday:</strong></div>
               <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
             </div>
-            <div class="line">
-              <div class="day"><strong>Friday:</strong></div>
+            <div class="line" id="day-5">
+              <div><strong>Friday:</strong></div>
               <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
             </div>
-            <div class="line">
-              <div class="day"><strong>Saturday:</strong></div>
+            <div class="line" id="day-6">
+              <div><strong>Saturday:</strong></div>
               <div class="time">Closed</div>
             </div>
           </div>
@@ -510,3 +509,10 @@
     </div>
   </div>
 </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
