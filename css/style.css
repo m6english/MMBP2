@@ -197,6 +197,10 @@ svg,
     font-weight: bold;
 }
 
+.contact {
+    margin-top: 2rem;
+}
+
 .card-header,
 .contact,
 .team-header {
