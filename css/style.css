@@ -33,7 +33,6 @@ hr {
     margin: auto;
 }
 
-
 /* =====================================
 ============== HEADER ==================
 ======================================== */
@@ -43,7 +42,7 @@ hr {
 }
 
 .nav-logo {
-    width: 12rem;
+    width: 14rem;
 }
 
 .navbar-toggler {
@@ -336,6 +335,9 @@ svg,
     border-radius: 4px;
 }
 
+.google-btn {
+    background: none;
+}
 
 /* =====================================
 ============== CAROUSEL ================
@@ -397,8 +399,6 @@ svg,
         display: table-cell;
         width: 40%;
         vertical-align: middle;
-        margin-right: 1rem;
-        margin-top: .5rem;
         margin: .5rem 1rem 0 auto;
     }
 
