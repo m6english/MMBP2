@@ -94,6 +94,7 @@ svg,
 
 .slider {
     color: white;
+    font-family: 'Rubik Mono One', sans-serif;
     position: absolute;
     height: 45px;
     width: 45px;
@@ -168,8 +169,13 @@ svg,
 
 .card-header {
     margin-top: 2rem;
+    Font-Family: 'Roboto', Sans-Serif;
+    Font-Size: 35px;
 }
 
+.card-title {
+    font-weight: bold;
+}
 
 .card-header,
 .contact,
@@ -237,6 +243,11 @@ svg,
 .foot-svg:hover {
     transform: scale(1.3);
 }
+
+.google-btn {
+    background: none;
+}
+
 
 /* =====================================
 ============== MODAL ==================
@@ -333,10 +344,6 @@ svg,
     transform: scale(1.05);
     box-shadow: 0 0 8px gray;
     border-radius: 4px;
-}
-
-.google-btn {
-    background: none;
 }
 
 /* =====================================
