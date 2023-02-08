@@ -29,7 +29,7 @@ hr {
 }
 
 .about-container {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -115,6 +115,7 @@ svg,
 .slider {
     color: white;
     font-family: 'Rubik Mono One', sans-serif;
+    font-style: italic;
     position: absolute;
     height: 45px;
     width: 45px;
@@ -509,6 +510,8 @@ svg,
     #reviews {
         width: 45%;
     }
+
+    
 }
 
 @media screen and (min-width: 1400px) {

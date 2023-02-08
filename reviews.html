@@ -39,7 +39,7 @@
               </li>
               <li class="nav-item">
                 <button type="button" class="modal-button nav-link" data-bs-toggle="modal"
-                  data-bs-target="#exampleModal">Hours & Location</button>
+                  data-bs-target="#exampleModal">Information</button>
               </li>
             </ul>
           </div>
@@ -72,7 +72,7 @@
               d="M781.8 543.2c-14.1 0-27.9-7-36.1-19.8-60.1-94.8-141.6-177.3-235.7-238.6-19.7-12.9-25.3-39.3-12.4-59 12.9-19.7 39.3-25.3 59.1-12.4 104.2 67.9 194.5 159.3 261.1 264.4 12.6 19.9 6.7 46.3-13.2 58.9-7.1 4.4-15 6.5-22.8 6.5zM945.2 485.7c-14.7 0-29-7.6-36.9-21.2-81.8-140.8-199-259.2-338.9-342.5-20.2-12.1-26.9-38.2-14.8-58.5 12-20.2 38.2-26.9 58.5-14.8 152.4 90.7 280 219.7 369 372.9 11.8 20.4 4.9 46.5-15.5 58.3-6.7 4-14.1 5.8-21.4 5.8z"
               fill="#000000" />
           </svg>
-          <p class="slider">Service</p>
+          <p class="slider">Services</p>
         </a>
         <img src="img/MMBPBIZCARDLOGO.jpg" class="nav-logo">
         <a class="nav-link" href="staff.html"><svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon"
@@ -146,6 +146,88 @@
           </div>
         </div>
       </footer>
+      <!-------------
+INFO MODAL
+---------------->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Mid Michigan Body Parts, Inc.</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="walk-in">
+            <p>Walk-in customers are not permitted at this time. As a result, we are unable to accept UPS drop-off
+              packages.</p>
+            <p>The UPS pickup window is 3:30pm-4:30pm on weekdays. Pre-addressed packages may be given directly to the
+              UPS
+              driver in the parking lot.</p>
+            <div class="address-hidden">
+              <p>Mid Michigan Body Parts, Inc.</p>
+              <p>2976 Larch Rd Harrison, MI. 48625</p>
+              <p>Phone: 989-539-5471</p>
+              <p>Fax: 989-539-9111</p>
+            </div>
+          </div>
+          <hr class="hr-header">
+          <div class="building-block">
+            <div class="hours-list">
+              <div class="line" id="day-0">
+                <div><strong>Sunday:</strong></div>
+                <div class="time">Closed</div>
+              </div>
+              <div class="line" id="day-1">
+                <div><strong>Monday:</strong></div>
+                <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+              </div>
+              <div class="line" id="day-2">
+                <div><strong>Tuesday:</strong></div>
+                <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+              </div>
+              <div class="line" id="day-3">
+                <div><strong>Wednesday:</strong></div>
+                <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+              </div>
+              <div class="line" id="day-4">
+                <div><strong>Thursday:</strong></div>
+                <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+              </div>
+              <div class="line" id="day-5">
+                <div><strong>Friday:</strong></div>
+                <div class="time">8:00am-12:00pm<br>1:00pm-5:00pm</div>
+              </div>
+              <div class="line" id="day-6">
+                <div><strong>Saturday:</strong></div>
+                <div class="time">Closed</div>
+              </div>
+            </div>
+            <figure class="modal-img-container">
+              <div class="address">
+                <p>Mid Michigan Body Parts, Inc.</p>
+                <p>2976 Larch Rd Harrison, MI. 48625</p>
+                <p>Phone: 989-539-5471</p>
+                <p>Fax: 989-539-9111</p>
+              </div>
+              <img src="img/modalimg.jpg" class="modal-img" alt="MMBP">
+              <figcaption>We'd love to assist you with your part-buying needs! Call us today!</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Forms
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">Job Application</a></li>
+            <li><a class="dropdown-item" href="img/creditapp.pdf" target="_blank">Credit Application</a></li>
+            <li><a class="dropdown-item" href="img/taxexempt.pdf" target="_blank">Tax Exempt</a></li>
+          </ul>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
