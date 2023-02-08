@@ -375,6 +375,7 @@ svg,
 ============== CAROUSEL ================
 ======================================== */
 
+
 .carousel {
     display: none;
     margin: 3rem auto 1rem;
@@ -509,9 +510,21 @@ svg,
 
     #reviews {
         width: 45%;
+    }    
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .team {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
     }
 
-    
+    .carousel {
+        margin-top: 1rem;
+    }
+
 }
 
 @media screen and (min-width: 1400px) {
