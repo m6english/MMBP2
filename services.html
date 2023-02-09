@@ -110,28 +110,110 @@ WIDE HEADER
 MAIN
 ---------------->
   <main class="main">
-    <div class="about-container">
-<!-- 
-      <p>We stock Original Equipment and aftermarket parts like:</p>
-      <ul>
-        <li>Complete Fenders</li>
-        <li>Quarters</li>
-        <li>Hoods</li>
-        <li>Patch Panels</li>
-      </ul>
-      <p>Our stock also includes:</p>
-      <ul>
-        <li>Heater Cores</li>
-        <li>Radiators</li>
-        <li>Running Boards</li>
-        <li>Fender Flares</li>
-        <li>Trim Rings</li>
-        <li>Rear Spoilers</li>
-        <li>Step-type Truck Bumpers</li>
-      </ul> -->
-
-
-    </div>
+      <h3 class="card-header">What Can We Do For You?</h3>
+      <hr>
+      <div class="services-container">
+        <div class="service-content col">
+          <img src="img/modalimg.jpg" class="img-fluid service-img">
+        <h5 id="service-header">What is MMBP?</h5>
+        <p><strong>We are central Michigan's trusted OEM and aftermarket parts provier.</strong> We have a robust inventory of collision and repair parts; 
+        from bumper to bumper, we've got you covered!</p>
+        <hr>
+        <h5 id="service-header">Winter takes a heavy toll on your vehicle!</h5>
+        <p>Road salt can accelerate rust accumulation on your vehicle. If your vehicle has fallen victim to those harsh Michigan winters, we're here to help!
+          We carry a variety of patch panels to get your car looking good as new!
+        </p>
+        <h5 id="service-header">Our inventory of patch panels includes:</h5>
+        <ul class="panel-list">
+          <li>Rocker Panels</li>
+          <li>Cab Corners</li>
+          <li>Wheel Arch Panels</li>
+          <li>Floor Panels</li>
+          <li>Quarter Panels</li>
+        </ul>
+        </div>
+        <div class="service-content col">
+          <hr>
+          <h5 id="service-header">Need your parts delivered?</h5>
+          <p>No problem! We have our own fleet of trucks and offer delivery service at competitive rates. <strong>From St. Ignace to M-46*</strong>, our friendly and reliable drivers 
+          will make sure your parts arrive safe and sound.</p>
+          <p class="asterisk">*We are unable to offer delivery to the thumb at this time.</p>
+          <hr>
+          <h5 id="service-header">Our Inventory</h5>
+          <table class="inventory">
+            <tr class="border-row">
+              <td class="border-cell inv">Bumper Covers</td>
+              <td class="border-cell inv">Condensers</td>
+              <td class="inv">Door Handles</td>
+            </tr>
+            <tr class="border-row">
+              <td class="border-cell inv">Fenders</td>
+              <td class="border-cell inv">Fender Liners</td>
+              <td class="inv">Fog Lamps</td>
+            </tr>
+            <tr class="border-row">
+              <td class="border-cell inv">Fog Lamp Covers</td>
+              <td class="border-cell inv">Grilles</td>
+              <td class="inv">Head Lamps</td>
+            </tr>
+            <tr class="border-row">
+              <td class="border-cell inv">Hoods</td>
+              <td class="border-cell inv">Mirrors</td>
+              <td class="inv">Park Lamps</td>
+            </tr>
+            <tr class="border-row">
+              <td class="border-cell inv">Radiators</td>
+              <td class="border-cell inv">Radiator Supports</td>
+              <td class="inv">Side Marker Lamps</td>
+            </tr>
+            <tr>
+              <td class="border-cell inv">Tail Lamps</td>
+              <td class="border-cell inv">Trans Oil Coolers</td>
+              <td class="inv">Valence Panels</td>
+            </tr>
+          </table>
+          <h5 id="service-header">Don't See What You're Looking For? Let Us Help!</h5>
+          <p>We are happy to deliver your parts, even if you don't get them from us! We've worked with various parts suppliers around the state 
+            to ensure prompt delivery to clients. Click <a id="supplier-link" data-bs-toggle="modal" data-bs-target="#suppliersModal">here</a> to see a list of suppliers that have utilized our delivery services.
+          </p>
+          <hr>
+          <h5 id="service-header">Delivery Rates</h5>
+          
+          <p></p>
+        </div>
+      </div>
+      <div class="returns">
+        <hr>
+        <h5 id="service-header">MMBP Return Policy</h5>
+        <p><strong>Please test fit all parts prior to prepping and/or painting. Painting or otherwise altering the part may result in return ineligibility.</strong></p>
+        <p>All claims for goods returned after 30 days of invoicing will be subject to a minimum 30% re-stocking fee. All non-core returns will be accessed a 1%
+          handling fee. No returns after 45 days. No returns on electrical or special order parts.</p>
+          <p>All returns must be in original packaging with corresponding part numbers in unused, unpainted, as-delivered condition.</p>
+        </p>
+        <h5 id="service-header">Return Standards By Manufacturer</h5>
+        <table class="returns-table">
+          <tr class="border-row">
+            <th class="man-cell border-cell"></th>
+            <th class="returns-cell border-cell">Lamp Cores</th>
+            <th class="returns-cell">Fascia Cores</th>
+          </tr>
+          <tr class="border-row">
+            <td class="man-cell border-cell">Ford</td>
+            <td class="returns-cell border-cell">OEM labels taped to lens of lamp</td>
+            <td class="returns-cell">OEM labels taped to part of cover</td>
+          </tr>
+          <tr class="border-row">
+            <td class="man-cell border-cell">Chrysler</td>
+            <td class="returns-cell border-cell">OEM labels taped to lens of lamp</td>
+            <td class="returns-cell">OEM labels taped to part of cover</td>
+          </tr>
+          <tr>
+            <td class="man-cell border-cell">GM</td>
+            <td class="returns-cell border-cell">Original OEM packaging with labels intact</td>
+            <td class="returns-cell">Original OEM packaging with labels intact</td>
+          </tr>
+        </table>
+      </div>
   </main>
 <!-------------
 FOOTER
@@ -240,7 +322,7 @@ INFO MODAL
             Forms
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="">Job Application</a></li>
+            <li><a class="dropdown-item" href="img/MMBPapp.pdf" target="_blank">Job Application</a></li>
             <li><a class="dropdown-item" href="img/creditapp.pdf" target="_blank">Credit Application</a></li>
             <li><a class="dropdown-item" href="img/taxexempt.pdf" target="_blank">Tax Exempt</a></li>
           </ul>
@@ -249,7 +331,9 @@ INFO MODAL
       </div>
     </div>
   </div>
-
+<!-------------
+SUPPLIER MODAL
+---------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
