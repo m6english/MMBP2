@@ -108,7 +108,6 @@ hr {
 }
 
 .returns {
-    text-align: center;
     color: white;
     margin: 1rem auto 8rem;
 }
@@ -542,6 +541,10 @@ svg,
     
     #reviews {
         width: 75%;
+    }
+
+    .returns {
+        text-align: center;
     }
 }
 
