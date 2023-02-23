@@ -12,6 +12,10 @@ body {
     min-height: 100%;
 }
 
+.svg-hide {
+    display: none;
+}
+
 .main {
     margin-bottom: 6rem;
     max-width: 75rem;
@@ -31,6 +35,7 @@ hr {
 #supplier-link {
     font-family: 'Rubik Mono One', sans-serif;
     text-decoration: underline;
+    color: rgb(72, 145, 255);
 }
 
 #supplier-link:hover {
@@ -64,13 +69,19 @@ hr {
     text-align: center;
 }
 
+#apply {
+    text-align: center;
+    font-size: 19px;
+}
+
 .services-container {
     margin: auto;
     width: 85%;
     color: white;
 }
 
-#service-header {
+#service-header,
+.employ-header {
     Font-Family: 'Roboto', Sans-Serif;
     text-align: center;
     color: white;
@@ -91,6 +102,10 @@ hr {
 .service-img {
     border-radius: 5px;
     margin-bottom: 1rem;
+}
+
+.job-list {
+    color: white;
 }
 
 .border-row {
@@ -139,6 +154,7 @@ hr {
     color: white;
 }
 
+
 /* =====================================
 ============== HEADER ==================
 ======================================== */
@@ -153,6 +169,10 @@ hr {
 
 .navbar-toggler {
     border: none;
+}
+
+.about-container>div>p {
+    color: white;
 }
 
 .about-container>p {
@@ -481,6 +501,47 @@ svg,
 /* ================================
 ========== MEDIA QUERIES ==========
 ================================ */
+@media screen and (min-width: 1200px) {
+    .team-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "text-a employ"
+        "text-a text-b"
+        "text-a list"
+        "apply apply";
+        column-gap: 10px;
+    }
+
+    #text-a {
+        grid-area: text-a;
+    }
+
+    #text-b {
+        grid-area: text-b;
+    }
+
+    .employ-header {
+        grid-area: employ;
+    }
+
+    .job-list {
+        grid-area: list;
+    }
+
+    #apply {
+        grid-area: apply;
+    }
+
+}
+
+@media screen and (min-width: 360px) {
+    .svg-hide {
+        display: inline-block;
+    }
+}
+
 @media screen and (min-width: 576px) {
 
     .card-main {
@@ -550,6 +611,37 @@ svg,
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px;
+    }
+    .team-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "text-a employ"
+        "text-a text-b"
+        "text-a list"
+        "apply apply";
+        column-gap: 10px;
+    }
+
+    #text-a {
+        grid-area: text-a;
+    }
+
+    #text-b {
+        grid-area: text-b;
+    }
+
+    .employ-header {
+        grid-area: employ;
+    }
+
+    .job-list {
+        grid-area: list;
+    }
+
+    #apply {
+        grid-area: apply;
     }
 }
 
@@ -629,6 +721,9 @@ svg,
         margin-top: 1rem;
     }
 
+    .team-container {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1400px) {
