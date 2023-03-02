@@ -17,20 +17,19 @@
 </head>
 
 <body>
-  <!-------------
-MOBILE HEADER
----------------->
+  <!--
+  MOBILE HEADER
+            -->
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="img/MMBPBIZCARDLOGO.jpg" class="nav-logo"></a>
+        <a class="navbar-brand" href="#"><img src="img/MMBPBIZCARDLOGO.jpg" class="nav-logo" alt="MMBP logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <hr class="hr-header">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -42,16 +41,16 @@ MOBILE HEADER
             </li>
             <li class="nav-item">
               <button type="button" class="modal-button nav-link" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">Information</button>
+                data-bs-target="#infoModal">Information</button>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-------------
-WIDE HEADER
----------------->
-    <div class="hidden">
+    <!--
+  WIDE HEADER
+            -->
+    <nav class="hidden">
       <a class="nav-link" href="index.html"><svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon"
           version="1.1" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -77,7 +76,7 @@ WIDE HEADER
         </svg>
         <p class="slider">Services</p>
       </a>
-      <img src="img/MMBPBIZCARDLOGO.jpg" class="nav-logo">
+      <img src="img/MMBPBIZCARDLOGO.jpg" class="nav-logo" alt="MMBP logo">
       <a class="nav-link" href="staff.html"><svg width="800px" height="800px" viewBox="0 0 1024 1024" class="icon"
           version="1.1" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -92,7 +91,7 @@ WIDE HEADER
         </svg>
         <p class="slider">Team</p>
       </a>
-      <button type="button" class="modal-button nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg
+      <a class="nav-link" data-bs-toggle="modal" data-bs-target="#infoModal"><svg
           width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M12 18.5C12.5523 18.5 13 18.0523 13 17.5L13 10.5C13 9.94772 12.5523 9.5 12 9.5C11.4477 9.5 11 9.94772 11 10.5L11 17.5C11 18.0523 11.4477 18.5 12 18.5Z"
@@ -105,20 +104,18 @@ WIDE HEADER
             fill="#000000" />
         </svg>
         <p class="slider">Info</p>
-      </button>
-    </div>
+      </a>
+    </nav>
   </header>
   <main class="main">
-    <h3 class="card-header">Meet Our Team</h3>
+    <h1 class="card-header">Meet Our Team</h1>
     <hr>
-    <div class="about-container team">
+    <section class="about-container team">
       <div class="team-container">
         <p id="text-a">At Mid Michigan Body Parts, we have a friendly, passionate and dedicated team. With over 100
-          years of
-          combined
-          experience, we're here to ensure your parts-buying experience goes smoothly and efficiently--all with a
-          smile!</p>
-        <h5 class="employ-header">Want To Join Our Team?</h5>
+          years of combined experience, we're here to ensure your parts-buying experience goes smoothly and
+          efficiently--all with a smile!</p>
+        <h2 class="employ-header">Want To Join Our Team?</h2>
         <p id="text-b">We're always looking for dedicated and reliable teammates! Positions include:</p>
         <ul class="job-list">
           <li>Sales</li>
@@ -127,57 +124,57 @@ WIDE HEADER
           <li>Warehouse Management</li>
           <li>Clerical</li>
         </ul>
-        <p id="apply">Click <a href="img/MMBPapp.pdf" id="supplier-link" target="_blank">here</a> to apply!</p>
+        <p id="apply">Click <a href="img/MMBPapp.pdf" class="supplier-link" target="_blank">here</a> to apply!</p>
       </div>
-      <!-------------
-CAROUSEL
----------------->
+      <!--
+    CAROUSEL
+            -->
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/office.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/office.JPG" class="d-block staff-carousel" alt="MMBP office with staff">
           </div>
           <div class="carousel-item">
-            <img src="img/mike.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/mike.JPG" class="d-block staff-carousel" alt="Mike sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/cliff.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/cliff.JPG" class="d-block staff-carousel" alt="Cliff standing by MMBP delivery truck">
           </div>
           <div class="carousel-item">
-            <img src="img/andrew.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/andrew.JPG" class="d-block staff-carousel" alt="Andrew standing by MMBP delivery truck">
           </div>
           <div class="carousel-item">
-            <img src="img/shannon.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/shannon.JPG" class="d-block staff-carousel" alt="Shannon standing by MMBP delivery truck">
           </div>
           <div class="carousel-item">
-            <img src="img/barry.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/barry.JPG" class="d-block staff-carousel" alt="Barry standing by MMBP delivery truck">
           </div>
           <div class="carousel-item">
-            <img src="img/josh.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/josh.JPG" class="d-block staff-carousel" alt="Josh leaning against MMBP delivery car">
           </div>
           <div class="carousel-item">
-            <img src="img/bret.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/bret.JPG" class="d-block staff-carousel" alt="Bret sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/mj.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/mj.JPG" class="d-block staff-carousel" alt="MJ sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/brandon.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/brandon.JPG" class="d-block staff-carousel" alt="Brandon sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/al.PNG" class="d-block staff-carousel" alt="...">
+            <img src="img/al.PNG" class="d-block staff-carousel" alt="Al sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/greg.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/greg.JPG" class="d-block staff-carousel" alt="Greg sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/todd.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/todd.JPG" class="d-block staff-carousel" alt="Todd sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/jane.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/jane.JPG" class="d-block staff-carousel" alt="Jane sitting at desk">
           </div>
           <div class="carousel-item">
-            <img src="img/adam.JPG" class="d-block staff-carousel" alt="...">
+            <img src="img/adam.JPG" class="d-block staff-carousel" alt="Adam sitting at desk">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -191,20 +188,20 @@ CAROUSEL
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </section>
     <hr>
-    <!-------------
-CARDS
----------------->
-    <div class="card-container">
-      <div class="card" id="staff-card" style="width: 18rem;">
+    <!--
+      CARDS
+            -->
+    <section class="card-container">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Adam</h5>
           <h6 class="card-subtitle mb-2 text-muted">Purchasing, Warehouse & Sales</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/adam.jpg" class="img-ph"></p>
+                <p class="card-text"><img src="img/adam.jpg" class="img-ph" alt="Adam sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -217,14 +214,14 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Jane</h5>
           <h6 class="card-subtitle mb-2 text-muted">Office Manager</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/jane.jpg" class="img-ph"></p>
+                <p class="card-text"><img src="img/jane.jpg" class="img-ph" alt="Jane sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -236,14 +233,14 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Todd</h5>
           <h6 class="card-subtitle mb-2 text-muted">Office Supervisor, Sales & Freight Coordinator</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/todd.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/todd.JPG" class="img-ph" alt="Todd sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -256,14 +253,14 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Greg</h5>
           <h6 class="card-subtitle mb-2 text-muted">Returns, Warranties & Warehousing</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/greg.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/greg.JPG" class="img-ph" alt="Greg sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -275,14 +272,14 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Al</h5>
           <h6 class="card-subtitle mb-2 text-muted">Sales</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/al.PNG" class="img-ph"></p>
+                <p class="card-text"><img src="img/al.PNG" class="img-ph" alt="Al sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -295,14 +292,14 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Brandon</h5>
           <h6 class="card-subtitle mb-2 text-muted">Manager: Freeland Location, Sales</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/brandon.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/brandon.JPG" class="img-ph" alt="Brandon sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -316,14 +313,14 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Mike "MJ"</h5>
           <h6 class="card-subtitle mb-2 text-muted">Parts Sales</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/mj.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/mj.JPG" class="img-ph" alt="MJ sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -337,14 +334,14 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Bret</h5>
           <h6 class="card-subtitle mb-2 text-muted">Field Sales Rep, Delivery Driver</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/bret.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/bret.JPG" class="img-ph" alt="Bret sitting at desk"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -356,14 +353,15 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Josh</h5>
           <h6 class="card-subtitle mb-2 text-muted">Delivery Driver: Freeland Location</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/josh.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/josh.JPG" class="img-ph"
+                    alt="Josh leaning against MMBP delivery car"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -378,14 +376,15 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Barry</h5>
           <h6 class="card-subtitle mb-2 text-muted">Delivery Driver</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/barry.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/barry.JPG" class="img-ph"
+                    alt="Barry standing in front of MMBP delivery truck"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -397,14 +396,15 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Shannon</h5>
           <h6 class="card-subtitle mb-2 text-muted">Delivery Driver</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/shannon.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/shannon.JPG" class="img-ph"
+                    alt="Shannon standing in front of MMBP delivery truck"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -417,14 +417,15 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Andrew</h5>
           <h6 class="card-subtitle mb-2 text-muted">Delivery Driver</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/andrew.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/andrew.JPG" class="img-ph"
+                    alt="Andrew standing in front of MMBP delivery truck"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -437,14 +438,15 @@ CARDS
         </div>
       </div>
 
-      <div class="card" id="staff-card" style="width: 18rem;">
+      <div class="card staff-card" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Cliff</h5>
           <h6 class="card-subtitle mb-2 text-muted">Delivery Driver</h6>
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <p class="card-text"><img src="img/cliff.JPG" class="img-ph"></p>
+                <p class="card-text"><img src="img/cliff.JPG" class="img-ph"
+                    alt="Cliff standing in front of MMBP delivery truck"></p>
               </div>
               <div class="flip-card-back">
                 <hr class="hr-header">
@@ -456,11 +458,11 @@ CARDS
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
-  <!-------------
-FOOTER
----------------->
+  <!--
+      FOOTER
+            -->
   <footer class="footer">
     <div class="footer-content">
       <div class="foot-left">
@@ -533,14 +535,14 @@ FOOTER
       </div>
     </div>
   </footer>
-  <!-------------
-INFO MODAL
----------------->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!--
+    INFO MODAL
+            -->
+  <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <section class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Mid Michigan Body Parts, Inc.</h1>
+          <h1 class="modal-title fs-5" id="infoModalLabel">Mid Michigan Body Parts, Inc.</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -619,7 +621,7 @@ INFO MODAL
           </ul>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
-      </div>
+      </section>
     </div>
   </div>
 
