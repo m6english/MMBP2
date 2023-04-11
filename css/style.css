@@ -246,6 +246,10 @@ svg,
     width: 45px;
 }
 
+#text-b {
+    text-align: center;
+}
+
 /* =====================================
 =============== CARDS ==================
 ======================================== */
@@ -639,7 +643,7 @@ svg,
         gap: 15px;
     }
 
-    .team-container {
+    /* .team-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -649,7 +653,7 @@ svg,
             "text-a list"
             "apply apply";
         column-gap: 10px;
-    }
+    } */
 
     #text-a {
         grid-area: text-a;
@@ -737,6 +741,7 @@ svg,
 
     #hiring-desktop {
         display: block;
+        text-align: center;
     }
 }
 
