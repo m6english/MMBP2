@@ -2,15 +2,19 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.455) 7%, rgba(0, 0, 0, 0.12)),
-        url('../img/mmbpbuilding2.PNG');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+body:after {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    background: radial-gradient(rgba(0, 0, 0, 0.455) 7%, rgba(0, 0, 0, 0.12)),
+    url('../img/mmbpbuilding2.PNG') no-repeat 50% 50%;
     background-size: cover;
-    background-position: center;
-    min-height: 100%;
-}
+  }
 
 .main {
     margin-bottom: 6rem;
