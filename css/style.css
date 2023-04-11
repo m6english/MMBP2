@@ -167,6 +167,14 @@ hr {
     color: white;
 }
 
+#hiring-desktop {
+    display: none;
+}
+
+#hiring-mobile {
+    margin-top: 1rem;
+    text-align: center;
+}
 
 /* =====================================
 ============== HEADER ==================
@@ -351,7 +359,7 @@ svg,
 
 .footer {
     position: fixed;
-    bottom: 0;
+    bottom: 1rem;
     height: 3rem;
     width: 100%;
     opacity: 85%;
@@ -513,7 +521,7 @@ svg,
 }
 
 /* =====================================
-=============== DEALS ==================
+=============== EVENTS =================
 ======================================== */
 
 #events {
@@ -721,6 +729,14 @@ svg,
 
     .footer-content {
         width: 80%;
+    }
+
+    #hiring-mobile {
+        display: none;
+    }
+
+    #hiring-desktop {
+        display: block;
     }
 }
 
