@@ -215,10 +215,13 @@ hr {
 
 svg {
     height: 35px;
-    width: 35px;
+    width: auto;
+    transform: translateX(50%);
 }
 
 .nav-link {
+    position: relative;
+    width: 90px;
     overflow: hidden;
 }
 
@@ -231,23 +234,23 @@ svg,
     transition-duration: .5s;
 }
 
-.nav-link:hover>.slider {
-    display: block;
-    color: black;
-    transform: translateY(-25px);
+.nav-link:hover .slider {
+    opacity: 1;
 }
 
-.nav-link:hover>svg {
-    transform: translateY(-35px);
+.nav-link:hover svg {
+    transform: translate(50%, -35px);
 }
 
 .slider {
-    color: white;
+    color: black;
     font-family: 'Rubik Mono One', sans-serif;
     font-style: italic;
     position: absolute;
-    height: 45px;
-    width: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+    opacity: 0;
 }
 
 #text-b {
@@ -312,7 +315,7 @@ svg,
     height: 15rem;
     margin: .5rem auto 1.5rem;
     box-shadow: 0 0 12px gray;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .card-header {
@@ -349,7 +352,7 @@ svg,
     width: 100%;
     margin-bottom: .5rem;
     box-shadow: 0 0 15px gray;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .staff-button,
@@ -363,8 +366,7 @@ svg,
     color: gray;
     border: none;
     width: 50%;
-    white-space: nowrap;
-    background: none;
+    white-space: nowrap;;
     text-decoration: underline;
 }
 
@@ -390,6 +392,7 @@ svg,
     width: 100%;
     opacity: 85%;
     background-color: black;
+    z-index: 3;
 }
 
 .footer-content {
