@@ -272,6 +272,8 @@ svg,
     bottom: 1rem;
     width: 90%;
     height: 15rem;
+    -webkit-perspective: 900000px;
+    perspective: 900000px;
 }
 
 .staff-card {
@@ -286,10 +288,6 @@ svg,
     transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
 .flip-card-front,
 .flip-card-back {
     position: absolute;
@@ -297,6 +295,7 @@ svg,
     height: 100%;
     backface-visibility: hidden;
     color: black;
+    transform-style: preserve-3d;
 }
 
 .flip-card-back {
@@ -352,6 +351,25 @@ svg,
     margin-bottom: .5rem;
     box-shadow: 0 0 15px gray;
     border-radius: 5px;
+}
+
+.staff-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background: rgba(92, 92, 92, 0.6);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    transition-duration: .4s;
+    border: 1px solid rgba(92, 92, 92, 0.6);
+}
+
+.staff-button:hover {
+    background: rgb(54, 54, 54);
+    border: 1px solid white;
 }
 
 /* =====================================
@@ -687,6 +705,10 @@ svg,
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+    }
+
+    .flip-card:hover {
+        cursor: pointer;
     }
 }
 
