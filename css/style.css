@@ -213,7 +213,7 @@ hr {
     display: none;
 }
 
-svg {
+.header-svg {
     height: 35px;
     width: auto;
     transform: translateX(50%);
@@ -229,7 +229,7 @@ svg {
     cursor: pointer;
 }
 
-svg,
+.header-svg,
 .slider {
     transition-duration: .5s;
 }
@@ -238,7 +238,7 @@ svg,
     opacity: 1;
 }
 
-.nav-link:hover svg {
+.nav-link:hover .header-svg {
     transform: translate(50%, -35px);
 }
 
@@ -406,11 +406,18 @@ svg,
 
 .foot-svg {
     transition-duration: .5s;
+    height: 35px;
+    width: 35px;
 }
 
 .foot-svg:hover {
     transform: scale(1.3);
     cursor: pointer;
+}
+
+#fire-svg {
+    height: 35px;
+    width: 35px;
 }
 
 #fire-container:hover {
