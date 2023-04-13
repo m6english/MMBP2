@@ -35,10 +35,10 @@ for (let i = 0; i < arrBtn.length; i++) {
     })
 }
 
-let bg = document.getElementById('bg');
+let bg = $("#bg");
 
 function resizeBackground() {
-    bg.clientHeight($(window).height());
+    bg.height($(window).height());
 }
 
 $(window).resize(resizeBackground);
