@@ -51,7 +51,7 @@ hr {
 }
 
 .supplier-link {
-    color: rgb(228, 235, 255);
+    color: white;
     font-weight: bold;
 }
 
@@ -188,7 +188,7 @@ hr {
 }
 
 .nav-logo {
-    width: 14rem;
+    width: 12rem;
 }
 
 .navbar-toggler {
