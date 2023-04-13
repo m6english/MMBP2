@@ -3,19 +3,16 @@
 }
 
 #bg {
-    content: "";
     position: fixed;
-    left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
     display: block;
     background: radial-gradient(rgba(0, 0, 0, 0.455) 7%, rgba(0, 0, 0, 0.12)),
-        url('../img/mmbpbuilding2.webp') no-repeat 50% 50%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+        url('../img/mmbpbuilding1.webp') no-repeat;
+    height: 970px;
+    width: 576px;
 }
 
 .main {
@@ -367,7 +364,8 @@ hr {
     color: gray;
     border: none;
     width: 50%;
-    white-space: nowrap;;
+    white-space: nowrap;
+    ;
     text-decoration: underline;
 }
 
@@ -571,6 +569,20 @@ hr {
 /* ================================
 ========== MEDIA QUERIES ==========
 ================================ */
+@media screen and (min-width: 500px) {
+    #bg {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: radial-gradient(rgba(0, 0, 0, 0.455) 7%, rgba(0, 0, 0, 0.12)),
+            url('../img/mmbpbuilding2.webp') no-repeat 50% 50%;
+        height: auto;
+        width: auto;
+        background-size: cover;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .team-container {
         display: grid;
@@ -676,18 +688,6 @@ hr {
         gap: 15px;
     }
 
-    /* .team-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-            "text-a employ"
-            "text-a text-b"
-            "text-a list"
-            "apply apply";
-        column-gap: 10px;
-    } */
-
     #text-a {
         grid-area: text-a;
     }
@@ -721,7 +721,7 @@ hr {
     .staff-button,
     .back-button {
         text-align: center;
-        background:rgba(236, 236, 236);
+        background: rgba(236, 236, 236);
         text-decoration: none;
         transition-duration: .4s;
         border-radius: 3px;
