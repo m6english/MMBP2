@@ -34,12 +34,3 @@ for (let i = 0; i < arrBtn.length; i++) {
         arrBtn[i].style.zIndex = '1';
     })
 }
-
-let bg = $("#bg");
-
-function resizeBackground() {
-    bg.height($(window).height());
-}
-
-$(window).resize(resizeBackground);
-resizeBackground();
