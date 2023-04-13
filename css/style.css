@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body:after {
+#bg {
     content: "";
     position: fixed;
     left: 0;
@@ -14,6 +14,8 @@ body:after {
     background: radial-gradient(rgba(0, 0, 0, 0.455) 7%, rgba(0, 0, 0, 0.12)),
         url('../img/mmbpbuilding2.webp') no-repeat 50% 50%;
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .main {
